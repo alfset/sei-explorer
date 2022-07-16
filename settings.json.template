@@ -7,13 +7,13 @@
   // name your instance!
   "title": "IQUIDUS",
 
-  "address": "127.0.0.1:3001",
+  "address": "127.0.0.1:12657",
 
   // coin name
-  "coin": "Darkcoin",
+  "coin": "Sei",
 
   // coin symbol
-  "symbol": "DRK",
+  "symbol": "SEI",
 
   // logo
   "logo": "/images/logo.png",
@@ -32,7 +32,7 @@
   "theme": "Cyborg",
 
   // port to listen for requests on.
-  "port" : 3001,
+  "port" : 12657,
 
   // database settings (MongoDB)
   "dbsettings": {
@@ -104,13 +104,13 @@
   // market settings
   //included markets: altmarkets, fides, bittrex, poloniex, yobit, bleutrade
   //default market is loaded by default and determines last price in header
-  "markets": {
-    "coin": "JBS",
-    "exchange": "BTC",
-    "enabled": ["bittrex"],
-    "ccex_key" : "Get-Your-Own-Key",
-    "default": "bittrex"
-  },
+  // markets": {
+  // "coin": "JBS",
+  //  "exchange": "BTC",
+  //  "enabled": ["bittrex"],
+  // "ccex_key" : "Get-Your-Own-Key",
+  //  "default": "bittrex"
+
 
   // richlist/top100 settings
   "richlist": {
@@ -157,7 +157,7 @@
   // HEAVY: retreive from heavys getsupply api call
   // BALANCES : total of all address balances
   // TXOUTSET : retreive from gettxoutsetinfo api call
-  "supply": "COINBASE",
+  // "supply": "COINBASE",
 
   // how to acquire network hashrate
   // getnetworkhashps: uses getnetworkhashps api call, returns in GH/s
